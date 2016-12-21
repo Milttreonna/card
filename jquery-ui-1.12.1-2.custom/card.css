@@ -5,3 +5,10 @@
     height: 50px; width: 1000px;
 
 }
+#pict{
+   background-image:url('');
+   background-size:cover;
+   background-position: center;
+   height: 250px; width: 250px;
+   border: 1px solid #bbb;
+}

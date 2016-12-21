@@ -3,9 +3,109 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Card Maker</title>
-		<link href="jquery-ui.css" rel="stylesheet">
-	</head>
-	<body>
+		<script src="jquery-3.1.1.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
+		<script src="jquery-ui.js"></script>
+		<script src="jquery-ui.min.js"></script>
+		<link href="card.css" rel="stylesheet">
+		<link href="bootstrap.css" rel="stylesheet">
+		<script src="bootstrap.js"></script>
+		<!-- <script src="bootstrap.min.js"><script> -->
 
+	</head>
+
+	<body>
+		  <div class="container-fluid">
+				<div class="col-md-12">
+
+					<div class="dropdown">
+					    <button class="dropdown-toggle" type="button" data-toggle="dropdown">Pick a category
+					    <span class="caret"></span></button>
+					    <ul class="dropdown-menu">
+					      <li><a href="#">Thanksgiving</a></li>
+					      <li><a href="#">Christmas</a></li>
+					      <li><a href="#">Birthday</a></li>
+								<li><a href="#">Valentines Day</a></li>
+								<li><a href="#">Mother's Day</a></li>
+								<li><a href="#">Father's Day</a></li>
+								<li><a href="#">Grandparent's Day</a></li>
+					    </ul>
+					  </div>
+
+
+
+	<center>
+		<div id="cardcolor">
+	 What color do you want your card to be? <br/>
+
+		<div id="black" style="background-color:black; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="LIGHTCORAL" style="background-color:LIGHTCORAL; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="CRIMSON" style="background-color:CRIMSON; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="RED" style="background-color:RED; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="DARKRED" style="background-color:DARKRED; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="LIGHTPINK" style="background-color:LIGHTPINK; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="HOTPINK" style="background-color:HOTPINK; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="MEDIUMVIOLETRED" style="background-color:MEDIUMVIOLETRED; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+
+		<div id="DEEPPINK" style="background-color:DEEPPINK; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="TOMATO" style="background-color:TOMATO; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="GOLD" style="background-color:GOLD; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="YELLOW" style="background-color:YELLOW; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="DARKKHAKI" style="background-color:DARKKHAKI; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="LAVENDER" style="background-color:LAVENDER; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="MEDIUMORCHID" style="background-color:MEDIUMORCHID; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="MEDIUMPURPLE" style="background-color:MEDIUMPURPLE; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+
+		<div id="BLUEVIOLET" style="background-color:BLUEVIOLET; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="PURPLE" style="background-color:PURPLE; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="SLATEBLUE" style="background-color:SLATEBLUE; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="LIME" style="background-color:LIME; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="PALEGREEN" style="background-color:PALEGREEN; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="MEDIUMSPRINGGREEN" style="background-color:MEDIUMSPRINGGREEN; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="GREEN" style="background-color:GREEN; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="MEDIUMAQUAMARINE" style="background-color:MEDIUMAQUAMARINE; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+
+		<div id="TEAL" style="background-color:TEAL; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="CYAN" style="background-color:CYAN; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="LIGHTBLUE" style="background-color:LIGHTBLUE; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="DODGERBLUE" style="background-color:DODGERBLUE; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="BLUE" style="background-color:BLUE; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="DARKBLUE" style="background-color:DARKBLUE; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="CHOCOLATE" style="background-color:CHOCOLATE; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="PERU" style="background-color:PERU; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+
+		<div id="SADDLEBROWN" style="background-color:SADDLEBROWN; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="BROWN" style="background-color:BROWN; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="IVORY" style="background-color:IVORY; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="MISTYROSE" style="background-color:MISTYROSE; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="GRAY" style="background-color:GRAY; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="DARKGRAY" style="background-color:DARKGRAY; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="DARKSLATEGRAY" style="background-color:DARKSLATEGRAY; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+		<div id="KHAKI" style="background-color:KHAKI; height:20px; width:20px; border-style:solid; border-color:black;  "> </div>
+	</div>
+</center>
+
+	<br/>
+<div id="container" class="ui-widget-content"  position:absolute;>
+	Need a text box?
+	<span id="draggable">*
+<input id="textbox1" type="text" class="ui-state-active" style="border:4; background:transparent;"/>
+</span>
+
+</div>
+
+
+	<center>
+		<div id="card" style="background-color:white; height:500px; width:1000px;"> </div>
+		</center>
+<!-- <img src="finn.png" id="finn"> -->
+
+		<!-- black, LIGHTCORAL, CRIMSON, RED, DARKRED, LIGHTPINK, HOTPINK, MEDIUMVIOLETRED, DEEPPINK, TOMATO, GOLD, YELLOW, DARKKHAKI,
+		LAVENDER, MEDIUMORCHID, MEDIUMPURPLE, BLUEVIOLET, PURPLE, SLATEBLUE, LIME, PALEGREEN, MEDIUMSPRINGGREEN, GREEN, MEDIUMAQUAMARINE,
+		TEAL, CYAN, LIGHTBLUE, DODGERBLUE, BLUE, DARKBLUE, CHOCOLATE, PERU, SADDLEBROWN, BROWN, IVORY, MISTYROSE, GRAY, DARKGRAY, DARKSLATEGRAY, KHAKI -->
+
+</div>
+</div>
+<script src="card.js"></script>
 	</body>
 </html>
